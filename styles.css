@@ -36,3 +36,10 @@ li a {
 #main {
     background-image: url('./images/gravel.png');
 }
+.image {
+    width:300px;
+    margin: 0px 0px 0px 0px
+}
+#small {
+    width:450px
+}
