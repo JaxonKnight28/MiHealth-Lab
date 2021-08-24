@@ -1,28 +1,38 @@
 #logo {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    padding-left: 5%;
+    padding: 2%;
+    float: left;
+    display: table-row;
 }
 #topBar {
     background-color: gray;
-    padding: 15px;
+    padding: px;
 }
-.navbar {
-    float: right;
-    padding-right: 1.5%;
-    display: flex;
-    width: 35%;
-    background-color: red;
-}
-.navbar a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    
-}
-
 .black {
     background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 5%;
+}
+li {
+    float: right;
+    padding-top: 3%;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 2.5%;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:black;
+}
+/* --------------------- */
+*main {
+    
 }
