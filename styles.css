@@ -56,10 +56,14 @@ img {
 }
 .text {
     padding-left: 3%;
+    justify-content: flex-start;
 }
 .words {
-    flex-grow: 0;
+    flex-shrink: 10;
 }
 .pictures {
-    flex-grow: 6;
+    flex-grow: 10;
+}
+.para {
+    flex-shrink: 5;
 }
