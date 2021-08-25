@@ -4,6 +4,7 @@
     padding: 2%;
     float: left;
     display: table-row;
+    padding-bottom: 5%;
 }
 #topBar {
     background-color: gray;
@@ -22,6 +23,8 @@ ul {
 li {
     float: right;
     padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 3%;
 }
 li a {
     display: block;
@@ -29,11 +32,14 @@ li a {
     padding: 2.5%;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color:black;
+    font-weight: bold;
 }
 /* --------------------- */
 #main {
+    width:100%;
+    overflow: hidden;
     background-image: url('./images/gravel.png');
 }
 .image {
@@ -42,4 +48,10 @@ li a {
 }
 #small {
     width:450px
+}
+img {
+    float: right;
+}
+.left {
+    float:left;
 }
