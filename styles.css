@@ -45,11 +45,11 @@ li a {
     background-image: url('./images/gravel.png');
 }
 .image {
-    width:300px;
-    margin: 0px 0px 0px 0px
+    width:250px;
+    margin: 0px 50px 0px 0px
 }
 #small {
-    width:450px
+    width:250px
 }
 img {
     float: right;
@@ -63,6 +63,8 @@ img {
 }
 .pictures {
     flex-grow: 10;
+    display: flex;
+    margin: 0px 50px 0px 0px
 }
 .para {
     flex-shrink: 5;
