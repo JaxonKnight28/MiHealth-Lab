@@ -4,7 +4,7 @@
     padding: 2%;
     float: left;
     display: table-row;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 #topBar {
     background-color: gray;
@@ -40,6 +40,7 @@ li a {
 #main {
     width:100%;
     overflow: hidden;
+    padding-top: 3%;
     background-image: url('./images/gravel.png');
 }
 .image {
@@ -54,4 +55,5 @@ img {
 }
 .left {
     float:left;
+    padding-left: 3%;
 }
