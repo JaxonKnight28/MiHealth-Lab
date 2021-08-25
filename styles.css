@@ -38,6 +38,7 @@ li a {
 }
 /* --------------------- */
 #main {
+    display:flex;
     width:100%;
     overflow: hidden;
     padding-top: 3%;
@@ -55,4 +56,10 @@ img {
 }
 .text {
     padding-left: 3%;
+}
+.words {
+    flex-grow: 0;
+}
+.pictures {
+    flex-grow: 6;
 }
