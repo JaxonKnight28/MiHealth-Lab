@@ -44,9 +44,9 @@ li a {
     background-image: url('./images/gravel.png');
 }
 .picture {
-    margin-right: 20px;
-    width: 350px;
-    height: 600px;
+     margin-right: 20px; 
+    width: 300px;
+    height: 500px;
     object-fit: cover;
     object-position: 50% 50%;
 }
@@ -54,6 +54,7 @@ li a {
 
 .text {
     padding-left: 15%;
+    padding-right: 15%;
     justify-content: flex-start;
     font-size: 70px;
     font-family: 'Lato', sans-serif;
@@ -61,17 +62,56 @@ li a {
 }
 .words {
     display: block;
-    flex-shrink: 20;
-    margin: 0px 100px 0px 0px;
+    flex-shrink: 100;
+    margin: 0px 0px 0px 0px;
     font-family: 'Lato', sans-serif;
 }
 .para {
     flex-shrink: 5;
     padding-left: 15%;
+    padding-right: 15%;
     font-size: 23px;
 }
 .menu {
     padding-left: 15%;
+    padding-right: 15%;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
+}
+.pictureContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.individualPic {
+    position: relative;
+}
+.topPictureWords, .bottomPictureWords {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    position: relative;
+    padding: 10px;
+    bottom: 90px;
+    right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*for the words in the last picture*/
+.lastTopWords, .lastBottomWords {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    position: relative;
+    padding: 10px;
+    bottom: 90px;
+    right: 59px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topPictureWords, .lastTopWords {
+    background-color: white;
+    margin-left: 250px;
+}
+.bottomPictureWords, .lastBottomWords {
+    background-color: yellowgreen;
+    margin-left: 200px;
 }
