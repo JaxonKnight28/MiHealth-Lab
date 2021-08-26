@@ -41,7 +41,7 @@ li a {
     padding-top: 3%;
     padding-bottom: 5%;
     margin: 0px 0px 0px 0px;
-    background-image: url('./images/gravel.png');
+    background-image: url('../images/gravel.png');
 }
 .picture {
      margin-right: 20px; 
