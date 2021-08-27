@@ -40,10 +40,10 @@ li a {
     display:flex;
     width:100%;
     overflow: hidden;
-    padding-top: 0%;
+    padding-top: 3%;
     padding-bottom: 5%;
     margin: 0px 0px 0px 0px;
-    background-image: url('../images/gravel.png');
+    background-image: url('../images/solidGray.jpg');
 }
 .picture {
      margin-right: 20px; 
@@ -79,6 +79,7 @@ li a {
     padding-right: 15%;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
+    font-weight: bold;
 }
 .pictureContainer {
     display: flex;
