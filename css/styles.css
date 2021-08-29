@@ -98,6 +98,18 @@ li a {
     font-size: 20px;
     font-weight: bold;
 }
+
+.middleTopWords, .middleBottomWords {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    position: relative;
+    padding: 10px;
+    bottom: 90px;
+    right: 27.5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /*for the words in the last picture*/
 .lastTopWords, .lastBottomWords {
     font-family: 'Lato', sans-serif;
@@ -110,11 +122,11 @@ li a {
     font-weight: bold;
 }
 
-.topPictureWords, .lastTopWords {
+.topPictureWords, .lastTopWords, .middleTopWords {
     background-color: white;
     margin-left: 250px;
 }
-.bottomPictureWords, .lastBottomWords {
+.bottomPictureWords, .lastBottomWords, .middleBottomWords {
     background-color: yellowgreen;
     margin-left: 200px;
 }
