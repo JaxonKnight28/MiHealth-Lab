@@ -24,13 +24,11 @@ body {
 
 #topBar {
     background-color: gray;
-    padding: px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
     padding-right: 5%;
 }
@@ -55,12 +53,11 @@ li a {
 
 /* --------------------- */
 #main {
-    display:flex;
-    width:100%;
+    display: flex;
+    width: 100%;
     overflow: hidden;
     padding-top: 3%;
     padding-bottom: 5%;
-    margin: 0px 0px 0px 0px;
     background-image: url('../images/solidGray.jpg');
 }
 
@@ -84,7 +81,6 @@ li a {
 .words {
     display: block;
     flex-shrink: 100;
-    margin: 0px 0px 0px 0px;
     font-family: 'Lato', sans-serif;
 }
 
